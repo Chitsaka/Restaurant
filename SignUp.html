@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+<style>
+    /* CSS Document */    
+h1{
+    color: crimson;
+    font-size: 30px;
+    background-image: url(https://restaurantengine.com/wp-content/uploads/2015/05/startup-restaurants-typically-overspend.jpg);
+	background-size: 100%;
+  }
+
+  .navbar ul li{
+    list-style: none;
+    width: 100%;
+  }
+.navbar ul li a{
+  float: left;
+  color: black;
+  text-align: justify;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.navbar ul li a:hover{
+  background-color: rgb(248, 90, 117);
+}
+
+form{
+ background-image: url();
+  position: absolute;
+  left: 50%;
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    border: 1px salmon solid;
+    border-radius: 10px;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 60%;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+}
+
+/* Set a style for the form button */
+.btn {
+  background-color:crimson;
+  padding: 10px;;
+  margin: 5px 5px 15px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 65%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup form{
+  text-align: center;
+  margin-top: 30px;
+  width: 500px;
+  height: auto;
+  border: 1px salmon solid;
+  border-radius: 10px;
+}
+form .form-footer a{
+  text-decoration: none;
+  color: crimson;
+}
+
+.btn .reset-password-btn{
+  background-color:crimson;
+  padding: 10px;;
+}
+.reset-password .email-textbox input[type=text]{
+  border: none;
+  border-radius: 4px ;
+}
+.card{
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.card .card-body a{
+  text-decoration: none;
+  color: black;
+}
+.card .card-body a:hover{
+  background-color: crimson;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+footer{
+  padding: 5px;
+}
+
+footer .footer-item a{
+  text-decoration: none;
+  color: black;
+}
+.copyright{
+  position: absolute;
+  left: 50%;
+}
+.bi{
+  padding: 0px;
+}
+.contact-page button{
+  border: none;
+  color: black;
+  background-color: crimson;
+  border-radius: 4px;
+}
+</style>
+<title>Kezzy's Restaurant</title>
+</head>
+<body>
+   <!--navigation-->   
+   <div class="container-fluid">
+    <div class="navbar navbar-brand">
+        <ul class="row d-flex">
+            <li class="col-3"><a href="home.html">Home</a></li>
+            <li class="col-3"><a href="contact.html">Contact</a></li>
+            <li class="col-3"><a href="login.html"> Log In</a></li>
+            <li class="col-3"><a href="about.html">About Us</a></li>
+        </ul>	
+    </div>
+</div>    
+    <h1 style="text-align:center">Kezzy's Delicacies</h1>
+    <!--form-->
+    <div class="container signup">
+        <div class="row col-8">
+        <form action="" class="formimg" autocomplete="off">
+            <h3 style="color: crimson;">Sign Up</h3>
+            <label>First Name</label><br><br>
+            <input type="text" placeholder="First Name" > <br><br>
+            <label>Last Name</label><br><br>
+            <input type="text" placeholder="Last Name" > <br><br>
+            <label for="">Password</label><br><br>
+            <input type="password" placeholder="Create password" required><br><br>
+            <label for="">Password</label><br><br>
+            <input type="password" placeholder="Re-enter password" required><br><br>
+            <button type="submit" class="btn .form-btn">Create Account</button>
+            
+            <div class="form-footer">
+                <div class="col">
+                    <a href="login.html">Already have an account</a>
+                </div>
+                <div class="col">
+                    <a href="ResetPassword.html">Forgot Password</a>
+                </div>
+            </div>
+            </form>
+        </div>    
+    </div> 
+    <footer class="fixed-bottom">      
+        <div class="d-flex">
+             <div class="col">
+                <a href="https://instagram.com">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://twitter.com">
+                    <i class="bi bi-twitter"></i>
+                </a>
+            </div >
+            <div class="col">
+                <a href="https://facebook.com">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--copyright-->
+<div class="row copyright">
+    &copy; 2021
+</div>
+</footer>   
+        <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
